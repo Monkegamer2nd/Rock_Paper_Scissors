@@ -26,7 +26,7 @@ def string_checker(question, valid_ans=("yes", "no")):
         # print error if user does not enter something that is valid
         print(error)
         print()
-
+        
 
 # Displays instructions
 def instructions():
