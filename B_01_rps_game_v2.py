@@ -130,7 +130,7 @@ while rounds_played < num_rounds:
 
     # Rounds headings (based on mode)
     if mode == "infinite":
-        rounds_heading = f"\n💿💿💿 Round {rounds_played + 1} (Infinite Mode) 💿💿💿"
+        rounds_heading = f"\n♾️♾️♾️ Round {rounds_played + 1} (Infinite Mode) ♾️♾️♾️"
     else:
         rounds_heading = f"\n💿💿💿 Round {rounds_played + 1} of {num_rounds} 💿💿💿"
 
@@ -187,7 +187,7 @@ if rounds_played > 0:
     # Output Game Statistics
     print("📊📊📊 Game Statistics 📊📊📊")
     print(f"👍 Won: {percent_won:.2f} \t "
-          f"👎 Lost: {percent_won:.2f} \t"
+          f"👎 Lost: {percent_lost:.2f} \t"
           f"👌 Tied: {percent_tied:.2f}")
 
     # ask user if they want to see their game history and output if requested
