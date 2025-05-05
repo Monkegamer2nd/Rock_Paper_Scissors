@@ -130,7 +130,7 @@ while rounds_played < num_rounds:
 
     # Rounds headings (based on mode)
     if mode == "infinite":
-        rounds_heading = f"\n💿💿💿 Round {rounds_played + 1} (Infinite Mode) 💿💿💿"
+        rounds_heading = f"\n♾️♾️♾️ Round {rounds_played + 1} (Infinite Mode) ♾️♾️♾️"
     else:
         rounds_heading = f"\n💿💿💿 Round {rounds_played + 1} of {num_rounds} 💿💿💿"
 
