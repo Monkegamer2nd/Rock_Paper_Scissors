@@ -187,7 +187,7 @@ if rounds_played > 0:
     # Output Game Statistics
     print("📊📊📊 Game Statistics 📊📊📊")
     print(f"👍 Won: {percent_won:.2f} \t "
-          f"👎 Lost: {percent_won:.2f} \t"
+          f"👎 Lost: {percent_lost:.2f} \t"
           f"👌 Tied: {percent_tied:.2f}")
 
     # ask user if they want to see their game history and output if requested
