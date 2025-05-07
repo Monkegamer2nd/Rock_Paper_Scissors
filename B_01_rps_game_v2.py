@@ -162,7 +162,7 @@ while rounds_played < num_rounds:
         feedback = "😀😀 You won. 😀😀"
 
     round_feedback = f"{user_choice} vs {comp_choice}, {feedback}"
-    history_item = f"Round: {rounds_played} - {round_feedback}"
+    history_item = f"Round: {rounds_played + 1} - {round_feedback}"
 
     print(round_feedback)
     game_history.append(history_item)
