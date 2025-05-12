@@ -35,7 +35,7 @@ def instructions():
     print("""
 *** Instructions ***
 
-To begin, choose the number of rounds (or press ,enter. for infinite mode).
+To begin, choose the number of rounds (or press <enter> for infinite mode).
 
 Then play against the computer. You need to choose R (rock) P (paper) S (scissors).
 
