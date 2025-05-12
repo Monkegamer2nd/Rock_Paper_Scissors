@@ -26,7 +26,7 @@ def string_checker(question, valid_ans=("yes", "no")):
         # print error if user does not enter something that is valid
         print(error)
         print()
-
+        
 
 # Displays instructions
 def instructions():
@@ -35,7 +35,7 @@ def instructions():
     print("""
 *** Instructions ***
 
-To begin, choose the number of rounds (or press ,enter. for infinite mode).
+To begin, choose the number of rounds (or press <enter> for infinite mode).
 
 Then play against the computer. You need to choose R (rock) P (paper) S (scissors).
 
@@ -199,5 +199,7 @@ if rounds_played > 0:
     print()
     print("Thanks for playing.")
 
+else:
+    print("🐔🐔🐔 Oops - You chickened out! 🐔🐔🐔")
 else:
     print("🐔🐔🐔 Oops - You chickened out! 🐔🐔🐔")
